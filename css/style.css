@@ -1,0 +1,37 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Trebuchet MS", sans-serif;
+}
+#navbar{
+    width: 25%;
+    height: 100vh;
+    float: left;
+    position: fixed;
+    margin-left: 5%;
+}
+#navbar header {
+    line-height: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#navbar a {
+    width: 80%;
+    height: 25px;
+    float: left;
+    border: 1px solid #dddddd;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#main-doc{
+    width: 70%;
+    float: right;
+}
+@media only screen and (max-width: 600px) {
+   body{
+       font-size: medium;
+   }
+  }
